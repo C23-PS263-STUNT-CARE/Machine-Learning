@@ -12,7 +12,7 @@ The dataset consists of a total of 10,000 cases, encompassing two categories: st
 - Labels: The dataset includes corresponding labels that categorize each case as either stunting or non-stunting.
 - Total Cases: The dataset comprises 10,000 cases, with 7,955 cases classified as stunting and 2,045 cases classified as non-stunting.
 
-    <br>then, the dataset will be: 
+  - Then, the dataset will be: 
 
     | Stunting | Label | Amount
     |------------|------|------|
