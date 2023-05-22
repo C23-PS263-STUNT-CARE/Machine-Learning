@@ -12,6 +12,22 @@ The dataset consists of a total of 10,000 cases, encompassing two categories: st
 - Labels: The dataset includes corresponding labels that categorize each case as either stunting or non-stunting.
 - Total Cases: The dataset comprises 10,000 cases, with 7,955 cases classified as stunting and 2,045 cases classified as non-stunting.
 
+    <br>then, the dataset will be: 
+
+    | Stunting | Label | Amount
+    |------------|------|------|
+    | Yes | 0 | 7955 |
+    | No  | 1 | 2045 |
+    <br>
+
+  - Since the datasets is super imbalanced, so we decide to balancing the dataset with shuffling into near 1113 (Malignant) so the datasets is changed to:
+  
+    | Kind of Cancer | Label | Amount
+    |------------|------|------|
+    | Benign | 0 | 1257 |
+    | Malignant | 1 | 1113 |
+    <br>
+
 ## Dataset Source
 
 The dataset was collected by conducting surveys and assessments in collaboration with local health centers and experts in the field. Samples were carefully selected to ensure a diverse representation of individuals in the target population. To enrich the dataset and address potential limitations of real-world data, synthetic data was generated using statistical techniques to create additional instances that closely resemble the observed patterns and characteristics.
