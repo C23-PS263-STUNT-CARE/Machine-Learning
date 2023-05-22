@@ -39,8 +39,6 @@ If you utilize this dataset in your research, projects, or any other work, we ki
 
 [Stunting Dataset](https://docs.google.com/spreadsheets/d/19LSBalOkKWFELNY1380eErj6bHvoQQNg/edit?usp=share_link&ouid=110075872904714439013&rtpof=true&sd=true) - Stunting Dataset, 2023
 
-Replace "Stunting Dataset" with the actual name of your dataset and provide the appropriate link to access the dataset in the "link_to_dataset" placeholder.
-
 Please note that while considerable effort has been made to ensure the accuracy and reliability of the dataset, the creators and contributors cannot guarantee its completeness or suitability for any specific purpose. Users are advised to exercise caution and perform due diligence when working with the dataset.
 
 For any inquiries or collaborations related to the dataset, please contact [muhtaromahkam0@gmail.com, ].
