@@ -72,5 +72,5 @@ If you utilize this dataset in your research, projects, or any other work, we ki
 
 Please note that while considerable effort has been made to ensure the accuracy and reliability of the dataset, the creators and contributors cannot guarantee its completeness or suitability for any specific purpose. Users are advised to exercise caution and perform due diligence when working with the dataset.
 
-For any inquiries or collaborations related to the dataset, please contact [muhtaromahkam0@gmail.com, ].
+For any inquiries or collaborations related to the dataset, please contact [Muhtarom Ahkam Maulana](muhtaromahkam0@gmail.com), [Salma].
 
