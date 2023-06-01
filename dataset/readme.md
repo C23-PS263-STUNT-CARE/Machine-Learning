@@ -4,8 +4,23 @@ The Stunting Dataset is a comprehensive dataset that comprises 7 features and co
 
 ## Dataset Information
 
-The dataset consists of a total of 10,000 cases, encompassing two categories: stunting and non-stunting. Stunting refers to impaired growth and development in children due to chronic malnutrition, while non-stunting represents cases where this condition is not observed.
+The dataset consists of a total of 6500 cases, encompassing two categories: stunting and non-stunting. Stunting refers to impaired growth and development in children due to chronic malnutrition, while non-stunting represents cases where this condition is not observed.
 
+## Feature Information 
+Additional Feature Information for the Stunting Dataset:
+
+Age: Represents the age of the child in months.
+Unit: Months
+Birth Weight: Refers to the weight of the child at birth.
+Unit: Kilograms (kg)
+Body Weight: Indicates the current weight of the child.
+Unit: Kilograms (kg)
+Birth Length: Represents the length of the child at birth.
+Unit: Centimeters (cm)
+Body Length: Indicates the current length of the child.
+Unit: Centimeters (cm)
+
+Please note that the dataset utilizes the specified units for each respective feature to maintain consistency and facilitate accurate analysis.
 ## Dataset Details
 
 - Features: The dataset contains 7 informative features that are crucial in understanding the stunting phenomenon.
@@ -20,12 +35,12 @@ The dataset consists of a total of 10,000 cases, encompassing two categories: st
     | No  | 0 | 3188 |
     <br>
 
-  - Since the datasets is super imbalanced, so we decide to balancing the dataset with shuffling into near 2188 (Malignant) so the datasets is changed to:
+  - Since the datasets is super imbalanced, so we decide to balancing the dataset with increase the minor case which is Stunting condition using synthetic data so the datasets is changed to:
   
-    | Kind of Cancer | Label | Amount
+    | Stunting | Label | Amount
     |------------|------|------|
-    | Benign | 0 | 1257 |
-    | Malignant | 1 | 1113 |
+    | Yes | 1 | 3312 |
+    | No | 0 | 3188 |
     <br>
 
 ## Dataset Source
