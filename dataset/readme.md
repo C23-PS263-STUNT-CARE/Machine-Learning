@@ -9,15 +9,19 @@ The dataset consists of a total of 6500 cases, encompassing two categories: stun
 ## Feature Information 
 Additional Feature Information for the Stunting Dataset:
 
-Age: Represents the age of the child in months.
+-Age: Represents the age of the child in months.
 Unit: Months
-Birth Weight: Refers to the weight of the child at birth.
+
+-Birth Weight: Refers to the weight of the child at birth.
 Unit: Kilograms (kg)
-Body Weight: Indicates the current weight of the child.
+
+-Body Weight: Indicates the current weight of the child.
 Unit: Kilograms (kg)
-Birth Length: Represents the length of the child at birth.
+
+-Birth Length: Represents the length of the child at birth.
 Unit: Centimeters (cm)
-Body Length: Indicates the current length of the child.
+
+-Body Length: Indicates the current length of the child.
 Unit: Centimeters (cm)
 
 Please note that the dataset utilizes the specified units for each respective feature to maintain consistency and facilitate accurate analysis.
@@ -26,7 +30,6 @@ Please note that the dataset utilizes the specified units for each respective fe
 - Features: The dataset contains 7 informative features that are crucial in understanding the stunting phenomenon.
 - Labels: The dataset includes corresponding labels that categorize each case as either stunting or non-stunting.
 - Total Cases: The dataset comprises 5000 cases, with 1812 cases classified as stunting and 3188 cases classified as non-stunting.
-
   - Then, the dataset will be: 
 
     | Stunting | Label | Amount
@@ -34,7 +37,6 @@ Please note that the dataset utilizes the specified units for each respective fe
     | Yes | 1 | 1812 |
     | No  | 0 | 3188 |
     <br>
-
   - Since the datasets is super imbalanced, so we decide to balancing the dataset with increase the minor case which is Stunting condition using synthetic data so the datasets is changed to:
   
     | Stunting | Label | Amount
@@ -42,7 +44,6 @@ Please note that the dataset utilizes the specified units for each respective fe
     | Yes | 1 | 3312 |
     | No | 0 | 3188 |
     <br>
-
 ## Dataset Source
 
 The dataset was collected by conducting surveys and assessments in collaboration with local health centers and experts in the field. Samples were carefully selected to ensure a diverse representation of individuals in the target population. To enrich the dataset and address potential limitations of real-world data, synthetic data was generated using statistical techniques to create additional instances that closely resemble the observed patterns and characteristics.
