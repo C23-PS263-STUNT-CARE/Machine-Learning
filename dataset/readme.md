@@ -10,17 +10,17 @@ The dataset consists of a total of 10,000 cases, encompassing two categories: st
 
 - Features: The dataset contains 7 informative features that are crucial in understanding the stunting phenomenon.
 - Labels: The dataset includes corresponding labels that categorize each case as either stunting or non-stunting.
-- Total Cases: The dataset comprises 10,000 cases, with 7,955 cases classified as stunting and 2,045 cases classified as non-stunting.
+- Total Cases: The dataset comprises 5000 cases, with 1812 cases classified as stunting and 3188 cases classified as non-stunting.
 
   - Then, the dataset will be: 
 
     | Stunting | Label | Amount
     |------------|------|------|
-    | Yes | 0 | 7955 |
-    | No  | 1 | 2045 |
+    | Yes | 1 | 1812 |
+    | No  | 0 | 3188 |
     <br>
 
-  - Since the datasets is super imbalanced, so we decide to balancing the dataset with shuffling into near 1113 (Malignant) so the datasets is changed to:
+  - Since the datasets is super imbalanced, so we decide to balancing the dataset with shuffling into near 2188 (Malignant) so the datasets is changed to:
   
     | Kind of Cancer | Label | Amount
     |------------|------|------|
