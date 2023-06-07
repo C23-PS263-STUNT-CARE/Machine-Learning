@@ -22,45 +22,28 @@ The dataset used for this project consists of anonymized records of children, in
 ## Requirements
 To run this project, you need the following dependencies:
 
-Python (version >= 3.6)
-TensorFlow (version >= 2.0)
-NumPy
-Pandas
-Scikit-learn
-You can install the required packages by running the following command:
+-Python (version >= 3.6)
+-TensorFlow (version >= 2.0)
+-NumPy
+-Pandas
+-Scikit-learn
 
-Copy code
-<code>
-  pip install -r requirements.txt
-</code>
+- You can install the required packages by running the following command:
+Copy code <code>pip install -r requirements.txt</code>
 Usage
-Clone this repository:
+- Clone this repository:
 bash
-Copy code
-<code>
-  git clone https://github.com/your-username/machine-learning-stunting-prediction.git
-</code>
-Navigate to the project directory:
+Copy code <code>git clone https://github.com/your-username/machine-learning-stunting-prediction.git</code>
+- Navigate to the project directory:
 bash
-Copy code
-<code>
-  cd machine-learning-stunting-prediction
-</code>
-Prepare your dataset and place it in the appropriate directory.
+Copy code <code>cd machine-learning-stunting-prediction</code>
+- Prepare your dataset and place it in the appropriate directory.
 
-Modify the configuration file config.py to specify the dataset path, model hyperparameters, and other settings.
+- Modify the configuration file <code>config.py</code> to specify the dataset path, model hyperparameters, and other settings.
 
-Run the training script:
+- Run the training script: Copy code <code>python train.py</code>
+- Evaluate the model using the test set: Copy code<code>python evaluate.py</code>
 
-Copy code
-<code>
-  python train.py
-</code>
-Evaluate the model using the test set:
-Copy code
-<code>
-  python evaluate.py
-</code>
 Experiment with different configurations and settings to improve the model's performance.
 
 ## Model Architecture
