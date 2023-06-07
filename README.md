@@ -10,10 +10,11 @@ The [dataset](https://www.kaggle.com/datasets/muhtarom/stunting-dataset) used fo
 ## Requirements
 To run this project, you need the following dependencies:
 - Python (version >= 3.6)
-- TensorFlow (version >= 2.0)
-- NumPy
-- Pandas
-- Scikit-learn
+- TensorFlow (version == 2.12.0)
+- NumPy (version == 1.23.5)
+- Pandas (version == 2.0.1)
+- Scikit-learn (version == 1.2.2)
+- Flask (version == 2.3.2)
 - You can install the required packages by running the following command: <code>pip install -r requirements.txt</code>
 
 ## Usage
