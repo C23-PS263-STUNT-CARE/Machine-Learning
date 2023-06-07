@@ -1,18 +1,6 @@
 # Machine Learning: Stunting Prediction in Children using DNN
 This repository contains a machine learning project that focuses on predicting stunting in children using a Deep Neural Network (DNN) model. Stunting refers to impaired growth and development in children, usually due to malnutrition or other factors. By leveraging machine learning techniques, we aim to develop an accurate predictive model that can assist in identifying children at risk of stunting.
 
-## Table of Contents
-- Introduction
-- Dataset
-- Requirements
-- Usage
-- Model Architecture
-- Training
-- Evaluation
-- Results
-- Contributing
-- License
-
 ## Introduction
 Stunting is a significant public health concern, and early identification is crucial for timely intervention and prevention of long-term health issues. This project aims to build a machine learning model using a Deep Neural Network (DNN) to predict stunting in children based on various features such as age, gender, nutritional status, socio-economic factors, and other relevant attributes.
 
@@ -21,15 +9,13 @@ The dataset used for this project consists of anonymized records of children, in
 
 ## Requirements
 To run this project, you need the following dependencies:
+- Python (version >= 3.6)
+- TensorFlow (version >= 2.0)
+- NumPy
+- Pandas
+- Scikit-learn
+- You can install the required packages by running the following command: <code>pip install -r requirements.txt</code>
 
--Python (version >= 3.6)
--TensorFlow (version >= 2.0)
--NumPy
--Pandas
--Scikit-learn
-
-- You can install the required packages by running the following command:
-Copy code <code>pip install -r requirements.txt</code>
 ## Usage
 1) Clone this repository: bash Copy code <code>git clone https://github.com/your-username/machine-learning-stunting-prediction.git</code>
 2) Navigate to the project directory: bash Copy code <code>cd machine-learning-stunting-prediction</code>
