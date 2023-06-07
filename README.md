@@ -2,7 +2,7 @@
 This repository contains a machine learning project that focuses on predicting stunting in children using a Deep Neural Network (DNN) model. Stunting refers to impaired growth and development in children, usually due to malnutrition or other factors. By leveraging machine learning techniques, we aim to develop an accurate predictive model that can assist in identifying children at risk of stunting.
 
 ## Introduction
-Stunting is a significant public health concern, and early identification is crucial for timely intervention and prevention of long-term health issues. This project aims to build a machine learning model using a Deep Neural Network (DNN) to predict stunting in children based on various features such as ge, gender, birth weight, birth length, body weight, body_length, breastfeeding, stunting.
+Stunting is a significant public health concern, and early identification is crucial for timely intervention and prevention of long-term health issues. This project aims to build a machine learning model using a Deep Neural Network (DNN) to predict stunting in children based on various features such as age, gender, birth weight, birth length, body weight, body_length, breastfeeding, stunting.
 
 ## Dataset
 The [dataset](https://www.kaggle.com/datasets/muhtarom/stunting-dataset) used for this project consists of anonymized records of children, including features such as age, gender, birth weight, birth length, body weight, body_length, breastfeeding, stunting.
@@ -38,10 +38,10 @@ The evaluation script (evaluate.py) loads the trained model and evaluates its pe
 ## Results
 The results obtained from the trained model on the test set are as follows:
 
-- Accuracy: 0.85
-- Precision: 0.82
-- Recall: 0.88
-- F1 Score: 0.85
+- Accuracy: 0.96
+- Precision: 
+- Recall: 
+- F1 Score: 
 - These metrics indicate a promising performance of the model in predicting stunting in children.
 
 ## Contributing
