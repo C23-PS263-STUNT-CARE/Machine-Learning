@@ -31,17 +31,21 @@ You can install the required packages by running the following command:
 
 Copy code
 <code>
-pip install -r requirements.txt
+  pip install -r requirements.txt
 </code>
 Usage
 Clone this repository:
 bash
 Copy code
-git clone https://github.com/your-username/machine-learning-stunting-prediction.git
+<code>
+  git clone https://github.com/your-username/machine-learning-stunting-prediction.git
+</code>
 Navigate to the project directory:
 bash
 Copy code
-cd machine-learning-stunting-prediction
+<code>
+  cd machine-learning-stunting-prediction
+</code>
 Prepare your dataset and place it in the appropriate directory.
 
 Modify the configuration file config.py to specify the dataset path, model hyperparameters, and other settings.
@@ -49,12 +53,17 @@ Modify the configuration file config.py to specify the dataset path, model hyper
 Run the training script:
 
 Copy code
-python train.py
+<code>
+  python train.py
+</code>
 Evaluate the model using the test set:
 Copy code
-python evaluate.py
+<code>
+  python evaluate.py
+</code>
 Experiment with different configurations and settings to improve the model's performance.
-Model Architecture
+
+## Model Architecture
 The DNN model architecture used in this project consists of several dense layers with ReLU activation, followed by a final output layer with a sigmoid activation function. The number of hidden layers and neurons can be customized through the configuration file.
 
 ## Training
