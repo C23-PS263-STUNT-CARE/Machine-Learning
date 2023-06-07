@@ -1,4 +1,4 @@
-# Machine Learning: Stunting Prediction in Children using DNN
+# StuntCare : Stunting Prediction in Children using DNN.
 This repository contains a machine learning project that focuses on predicting stunting in children using a Deep Neural Network (DNN) model. Stunting refers to impaired growth and development in children, usually due to malnutrition or other factors. By leveraging machine learning techniques, we aim to develop an accurate predictive model that can assist in identifying children at risk of stunting.
 
 ## Introduction
