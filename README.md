@@ -2,7 +2,7 @@
 This repository contains a machine learning project that focuses on predicting stunting in children using a Deep Neural Network (DNN) model. Stunting refers to impaired growth and development in children, usually due to malnutrition or other factors. By leveraging machine learning techniques, we aim to develop an accurate predictive model that can assist in identifying children at risk of stunting.
 
 ## Introduction
-Stunting is a significant public health concern, and early identification is crucial for timely intervention and prevention of long-term health issues. This project aims to build a machine learning model using a Deep Neural Network (DNN) to predict stunting in children based on various features such as age, gender, nutritional status, socio-economic factors, and other relevant attributes.
+Stunting is a significant public health concern, and early identification is crucial for timely intervention and prevention of long-term health issues. This project aims to build a machine learning model using a Deep Neural Network (DNN) to predict stunting in children based on various features such as ge, gender, birth weight, birth length, body weight, body_length, breastfeeding, stunting.
 
 ## Dataset
 The [dataset](https://www.kaggle.com/datasets/muhtarom/stunting-dataset) used for this project consists of anonymized records of children, including features such as age, gender, birth weight, birth length, body weight, body_length, breastfeeding, stunting.
@@ -18,12 +18,12 @@ To run this project, you need the following dependencies:
 - You can install the required packages by running the following command: <code>pip install -r requirements.txt</code>
 
 ## Usage
-1) Clone this repository: bash Copy code <code>git clone https://github.com/your-username/machine-learning-stunting-prediction.git</code>
-2) Navigate to the project directory: bash Copy code <code>cd machine-learning-stunting-prediction</code>
+1) Clone this repository: <code>git clone [https://github.com/your-username/machine-learning-stunting-prediction.git](https://github.com/C23-PS263-STUNT-CARE/Machine-Learning.git)</code>
+2) Navigate to the project directory: <code>cd Machine-Learning</code>
 3) Prepare your dataset and place it in the appropriate directory.
 4) Modify the configuration file <code>config.py</code> to specify the dataset path, model hyperparameters, and other settings.
-5) Run the training script: Copy code <code>python train.py</code>
-6) Evaluate the model using the test set: Copy code<code>python evaluate.py</code>
+5) Run the training script: <code>python train.py</code>
+6) Evaluate the model using the test set: <code>python evaluate.py</code>
 7) Experiment with different configurations and settings to improve the model's performance.
 
 ## Model Architecture
