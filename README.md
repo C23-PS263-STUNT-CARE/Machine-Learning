@@ -18,7 +18,7 @@ To run this project, you need the following dependencies:
 - You can install the required packages by running the following command: <code>pip install -r requirements.txt</code>
 
 ## Usage
-1) Clone this repository: <code>git clone [https://github.com/your-username/machine-learning-stunting-prediction.git](https://github.com/C23-PS263-STUNT-CARE/Machine-Learning.git)</code>
+1) Clone this repository: <code>git clone [https://github.com/C23-PS263-STUNT-CARE/Machine-Learning.git](https://github.com/C23-PS263-STUNT-CARE/Machine-Learning.git)</code>
 2) Navigate to the project directory: <code>cd Machine-Learning</code>
 3) Prepare your dataset and place it in the appropriate directory.
 4) Modify the configuration file <code>config.py</code> to specify the dataset path, model hyperparameters, and other settings.
