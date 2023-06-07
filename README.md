@@ -30,7 +30,9 @@ Scikit-learn
 You can install the required packages by running the following command:
 
 Copy code
+<code>
 pip install -r requirements.txt
+</code>
 Usage
 Clone this repository:
 bash
