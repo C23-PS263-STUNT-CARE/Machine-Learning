@@ -5,7 +5,7 @@ This repository contains a machine learning project that focuses on predicting s
 Stunting is a significant public health concern, and early identification is crucial for timely intervention and prevention of long-term health issues. This project aims to build a machine learning model using a Deep Neural Network (DNN) to predict stunting in children based on various features such as age, gender, nutritional status, socio-economic factors, and other relevant attributes.
 
 ## Dataset
-The dataset used for this project consists of anonymized records of children, including features such as age, gender, height, weight, nutritional status, and socio-economic factors. The dataset is not included in this repository and should be obtained separately.
+The [dataset](https://www.kaggle.com/datasets/muhtarom/stunting-dataset) used for this project consists of anonymized records of children, including features such as age, gender, birth weight, birth length, body weight, body_length, breastfeeding, stunting.
 
 ## Requirements
 To run this project, you need the following dependencies:
