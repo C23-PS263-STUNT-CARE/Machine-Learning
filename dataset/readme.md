@@ -69,7 +69,7 @@ The Stunting Dataset is made available under a specific license. Please refer to
 
 If you utilize this dataset in your research, projects, or any other work, we kindly request that you acknowledge its source by citing it as follows:
 
-[Stunting Dataset](https://www.kaggle.com/datasets/muhtarom/stunting-dataset) - Stunting Dataset, 2023
+[Stunting Dataset](https://www.kaggle.com/datasets/muhtarom/stunting) - Stunting Dataset, 2023
 
 Please note that while considerable effort has been made to ensure the accuracy and reliability of the dataset, the creators and contributors cannot guarantee its completeness or suitability for any specific purpose. Users are advised to exercise caution and perform due diligence when working with the dataset.
 
