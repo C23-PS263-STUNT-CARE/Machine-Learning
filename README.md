@@ -39,9 +39,9 @@ The evaluation script (evaluate.py) loads the trained model and evaluates its pe
 The results obtained from the trained model on the test set are as follows:
 
 - Accuracy: 0.96
-- Precision: 
-- Recall: 
-- F1 Score: 
+- Precision: 0.95
+- Recall: 0.94
+- F1 Score: 0.94
 - These metrics indicate a promising performance of the model in predicting stunting in children.
 
 ## Contributing
