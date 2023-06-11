@@ -18,13 +18,13 @@ To run this project, you need the following dependencies:
 - You can install the required packages by running the following command: <code>pip install -r requirements.txt</code>
 
 ## Usage
-1) Clone this repository: <code>git clone [https://github.com/C23-PS263-STUNT-CARE/Machine-Learning.git](https://github.com/C23-PS263-STUNT-CARE/Machine-Learning.git)</code>
-2) Navigate to the project directory: <code>cd Machine-Learning</code>
+1) Clone the repository: git clone [https://github.com/C23-PS263-STUNT-CARE/Machine-Learning.git](https://github.com/C23-PS263-STUNT-CARE/Machine-Learning.git)
+2) Navigate to the project directory: cd Machine-Learning
 3) Prepare your dataset and place it in the appropriate directory.
-4) Modify the configuration file <code>config.py</code> to specify the dataset path, model hyperparameters, and other settings.
-5) Run the training script: <code>python train.py</code>
-6) Evaluate the model using the test set: <code>python evaluate.py</code>
-7) Experiment with different configurations and settings to improve the model's performance.
+4) Modify the necessary parameters and settings in main.py and preprocess.py according to your requirements.
+5) Run the preprocessing script to prepare your dataset: python preprocess.py. This script will preprocess your data and create the necessary input files for training and evaluation.
+6) Run the main training script: python main.py. This script will train the model using the preprocessed data and save the trained model weights.
+7) After training, you can evaluate the model using the evaluation script or make predictions on new data.
 
 ## Model Architecture
 The DNN model architecture used in this project consists of several dense layers with ReLU activation, followed by a final output layer with a sigmoid activation function. The number of hidden layers and neurons can be customized through the configuration file.
