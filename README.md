@@ -22,18 +22,18 @@ To run this project, you need the following dependencies:
 2) Navigate to the project directory: cd Machine-Learning
 3) Prepare your dataset and place it in the appropriate directory.
 4) Modify the necessary parameters and settings in main.py and preprocess.py according to your requirements.
-5) Run the preprocessing script to prepare your dataset: python preprocess.py. This script will preprocess your data and create the necessary input files for training and evaluation.
-6) Run the main training script: python main.py. This script will train the model using the preprocessed data and save the trained model weights.
+5) Run the preprocessing script to prepare your dataset: python (preprocess.py). This script will preprocess your data and create the necessary input files for training and evaluation.
+6) Run the main training script: python (main.py). This script will train the model using the preprocessed data and save the trained model weights.
 7) After training, you can evaluate the model using the evaluation script or make predictions on new data.
 
 ## Model Architecture
 The DNN model architecture used in this project consists of several dense layers with ReLU activation, followed by a final output layer with a sigmoid activation function. The number of hidden layers and neurons can be customized through the configuration file.
 
 ## Training
-The training process involves loading the dataset, preprocessing the data, splitting it into training and validation sets, and training the DNN model using backpropagation and gradient descent. The training script (train.py) implements this process and saves the trained model for future use.
+The training process involves loading the dataset, preprocessing the data, splitting it into training and validation sets, and training the DNN model using backpropagation and gradient descent. The training script (main.py) implements this process and saves the trained model for future use.
 
 ## Evaluation
-The evaluation script (evaluate.py) loads the trained model and evaluates its performance on the test set. Various metrics such as accuracy, precision, recall, and F1 score are computed to assess the model's predictive capabilities.
+The evaluation loads the trained model and evaluates its performance on the test set. Various metrics such as accuracy, precision, recall, and F1 score are computed to assess the model's predictive capabilities.
 
 ## Results
 The results obtained from the trained model on the test set are as follows:
