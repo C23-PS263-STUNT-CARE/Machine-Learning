@@ -30,7 +30,7 @@ To run this project, you need the following dependencies:
 The DNN model architecture used in this project consists of several dense layers with ReLU activation, followed by a final output layer with a sigmoid activation function. The number of hidden layers and neurons can be customized through the configuration file.
 
 ## Training
-The training process involves loading the dataset, preprocessing the data, splitting it into training and validation sets, and training the DNN model using backpropagation and gradient descent. The training script <code>main.py</code> implements this process and saves the trained model for future use.
+The training process involves loading the dataset, preprocessing the data, splitting it into training and etest sets, and training the DNN model with BinaryCrossentropy loss function and also Adam Optimizer . The training script <code>main.py</code> implements this process and saves the trained model for future use.
 
 ## Evaluation
 The evaluation loads the trained model and evaluates its performance on the test set. Various metrics such as accuracy, precision, recall, and F1 score are computed to assess the model's predictive capabilities.
