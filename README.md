@@ -18,19 +18,19 @@ To run this project, you need the following dependencies:
 - You can install the required packages by running the following command: <code>pip install -r requirements.txt</code>
 
 ## Usage
-1) Clone the repository: git clone [https://github.com/C23-PS263-STUNT-CARE/Machine-Learning.git](https://github.com/C23-PS263-STUNT-CARE/Machine-Learning.git)
-2) Navigate to the project directory: cd Machine-Learning
+1) Clone the repository: <code> git clone [https://github.com/C23-PS263-STUNT-CARE/Machine-Learning.git](https://github.com/C23-PS263-STUNT-CARE/Machine-Learning.git) </code>
+2) Navigate to the project directory: <code>cd Machine-Learning </code>
 3) Prepare your dataset and place it in the appropriate directory.
-4) Modify the necessary parameters and settings in main.py and preprocess.py according to your requirements.
-5) Run the preprocessing script to prepare your dataset: python preprocess.py. This script will preprocess your data and create the necessary input files for training and evaluation.
-6) Run the main training script: python main.py. This script will train the model using the preprocessed data and save the trained model weights.
+4) Modify the necessary parameters and settings in <code>main.py</code> and <code>preprocess.py</code> according to your requirements.
+5) Run the preprocessing script to prepare your dataset: <code>python preprocess.py</code>. This script will preprocess your data and create the necessary input files for training and evaluation.
+6) Run the main training script: <code>python main.py</code>. This script will train the model using the preprocessed data and save the trained model weights.
 7) After training, you can evaluate the model using the evaluation script or make predictions on new data.
 
 ## Model Architecture
 The DNN model architecture used in this project consists of several dense layers with ReLU activation, followed by a final output layer with a sigmoid activation function. The number of hidden layers and neurons can be customized through the configuration file.
 
 ## Training
-The training process involves loading the dataset, preprocessing the data, splitting it into training and validation sets, and training the DNN model using backpropagation and gradient descent. The training script (main.py) implements this process and saves the trained model for future use.
+The training process involves loading the dataset, preprocessing the data, splitting it into training and validation sets, and training the DNN model using backpropagation and gradient descent. The training script <code>main.py</code> implements this process and saves the trained model for future use.
 
 ## Evaluation
 The evaluation loads the trained model and evaluates its performance on the test set. Various metrics such as accuracy, precision, recall, and F1 score are computed to assess the model's predictive capabilities.
