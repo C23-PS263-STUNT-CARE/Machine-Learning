@@ -22,8 +22,8 @@ To run this project, you need the following dependencies:
 2) Navigate to the project directory: cd Machine-Learning
 3) Prepare your dataset and place it in the appropriate directory.
 4) Modify the necessary parameters and settings in main.py and preprocess.py according to your requirements.
-5) Run the preprocessing script to prepare your dataset: python (preprocess.py). This script will preprocess your data and create the necessary input files for training and evaluation.
-6) Run the main training script: python (main.py). This script will train the model using the preprocessed data and save the trained model weights.
+5) Run the preprocessing script to prepare your dataset: python preprocess.py. This script will preprocess your data and create the necessary input files for training and evaluation.
+6) Run the main training script: python main.py. This script will train the model using the preprocessed data and save the trained model weights.
 7) After training, you can evaluate the model using the evaluation script or make predictions on new data.
 
 ## Model Architecture
