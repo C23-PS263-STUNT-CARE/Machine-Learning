@@ -28,6 +28,8 @@ To run this project, you need the following dependencies:
 
 ## Model Architecture
 The DNN model architecture used in this project consists of several dense layers with ReLU activation, followed by a final output layer with a sigmoid activation function. The number of hidden layers and neurons can be customized through the configuration file.
+<p align="center"><img src="https://github.com/C23-PS263-STUNT-CARE/Machine-Learning/assets/103315957/3c8eadda-57f9-48f6-9d1d-218e49b6735c" width="200px"></p>
+
 
 ## Training
 The training process involves loading the dataset, preprocessing the data, splitting it into training and etest sets, and training the DNN model with BinaryCrossentropy loss function and also Adam Optimizer . The training script <code>main.py</code> implements this process and saves the trained model for future use.
