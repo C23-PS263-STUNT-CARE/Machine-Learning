@@ -29,7 +29,7 @@ To run this project, you need the following dependencies:
 ## Model Architecture
 The DNN model architecture used in this project consists of several dense layers with ReLU activation, followed by a final output layer with a sigmoid activation function. The number of hidden layers and neurons can be customized through the configuration file.
 <p align="center" style="background-color: white;">
-  <img src="https://github.com/C23-PS263-STUNT-CARE/.github/assets/103315957/2a9cbd7d-d7ac-4fad-83c4-8523080e4a6a" width="500px">
+  <img src="https://github.com/C23-PS263-STUNT-CARE/.github/assets/103315957/2a9cbd7d-d7ac-4fad-83c4-8523080e4a6a" width="800px">
 </p>
 
 ## Training
