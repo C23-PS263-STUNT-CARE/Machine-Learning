@@ -5,8 +5,8 @@ import numpy as np
 
 def label_encoding(sex, age, birth_weight, birth_length, body_weight, body_length, asi_ekslusif):
     # Make dictionary for label encoding
-    sex_encoding = {'Laki-Laki': 1, 'Perempuan': 0}
-    asi_encoding = {'Tidak': 0, 'Ya': 1}
+    sex_encoding = {'M': 1, 'F': 0}
+    asi_encoding = {'No': 0, 'Yes': 1}
     # Encode asi_ekslusif
     asi_encoded = asi_encoding.get(asi_ekslusif)
     # Encode sex

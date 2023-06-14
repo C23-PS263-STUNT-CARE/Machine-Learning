@@ -24,16 +24,10 @@ def predict():
 
     normalized_data = preprocess_data(sex, age, birth_weight, birth_length, body_weight, body_length, asi_ekslusif)
     predictions = predict_stunting(normalized_data)
-    rounded_prediction = round(predictions[0][0].item(), 1)
-
-    if rounded_prediction > 0.5:
-        stunting_status = "Stunting"
-    else:
-        stunting_status = "Not Stunting"
+    prediction_value = round(predictions[0][0].item(), 2)
 
     result = {
-        'stunting_prediction': rounded_prediction,
-        'stunting_status': stunting_status
+        'prediction': prediction_value
     }
 
     return jsonify(result)
