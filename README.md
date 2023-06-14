@@ -9,12 +9,12 @@ The [dataset](https://www.kaggle.com/datasets/muhtarom/stunting-dataset) used fo
 
 ## Requirements
 To run this project, you need the following dependencies:
-- Python (version >= 3.6)
-- TensorFlow (version == 2.12.0)
-- NumPy (version == 1.23.5)
-- Pandas (version == 2.0.1)
-- Scikit-learn (version == 1.2.2)
-- Flask (version == 2.3.2)
+- Python
+- TensorFlow
+- NumPy
+- Pandas
+- Scikit-learn
+- Flask
 - You can install the required packages by running the following command: <code>pip install -r requirements.txt</code>
 
 ## Usage
@@ -43,6 +43,24 @@ The results obtained from the trained model on the test set are as follows:
 - Recall: 0.94
 - F1 Score: 0.94
 - These metrics indicate a promising performance of the model in predicting stunting in children.
+
+## Deployment to Google Cloud Platform
+  Thanks to [patrickloeber](https://github.com/patrickloeber) for the How To Deploy ML Models With Google Cloud Run in [Youtube Video](https://www.youtube.com/watch?v=vieoHqt7pxo)
+1) Setup Google Cloud Platform
+    - Create a Project
+    - Activate Cloud Run Api and Cloud Build API
+    - And at least you have access to Cloud Run Admin
+2) Setup Google Cloud SDK
+    - You can follow the instructions here [https://cloud.google.com/sdk/docs/install](https://cloud.google.com/sdk/docs/install) to installation
+    - Init your google cloud project in Google Cloud SDK
+3) Create Dockerfile, requirements.txt, .dockerignore
+4) Cloud Build and Deploy
+    ```
+    gcloud builds submit --tag gcr.io/<project_id>/<function_name>
+    gcloud run deploy --image gcr.io/<project_id>/<function_name> --platform managed
+    ```
+5) Testing with Postman
+    <img src="image/test.png">
 
 ## Contributing
 Contributions to this project are welcome. If you want to contribute, please fork the repository, create a new branch, make your changes, and submit a pull request.
